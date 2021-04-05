@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "algorithms",
+  "name": "notebook-algorithms",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",

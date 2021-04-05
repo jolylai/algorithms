@@ -1,6 +1,6 @@
 ---
 title: 栈
-group:
+nav:
   title: 数据结构
   order: 1
 ---
