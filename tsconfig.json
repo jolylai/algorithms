@@ -9,6 +9,7 @@
     "strict": true,
     "allowSyntheticDefaultImports": true
   },
+  "include": ["packages"],
   "exclude": [
     "node_modules",
     "lib",

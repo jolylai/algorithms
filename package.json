@@ -10,8 +10,8 @@
     "deploy": "npm run docs:build && npm run docs:deploy",
     "release": "npm run build && npm publish",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
-    "test": "umi-test",
-    "test:coverage": "umi-test --coverage"
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -31,6 +31,11 @@
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "typescript": "^4.6.3",
+    "vitest": "^0.9.0",
     "yorkie": "^2.0.0"
+  },
+  "dependencies": {
+    "algorithms": "workspace:^0.0.1",
+    "data-structures": "workspace:^0.0.1"
   }
 }

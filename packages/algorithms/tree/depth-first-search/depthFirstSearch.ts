@@ -31,7 +31,7 @@ function depthFirstSearchRecursive(node: any, options: Required<Options>) {
   leaveNode(node);
 }
 
-export default function depthFirstSearch(node: any, options: Options) {
+export default function depthFirstSearch(node: any, options?: Options) {
   const mergedOption = Object.assign({}, defaultOptions, options);
 
   depthFirstSearchRecursive(node, mergedOption as Required<Options>);
