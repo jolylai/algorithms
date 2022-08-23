@@ -5,23 +5,23 @@
 Install dependencies,
 
 ```bash
-$ npm i
+$ pnpm i
 ```
 
 Start the dev server,
 
 ```bash
-$ npm start
+$ pnpm start
 ```
 
 Build documentation,
 
 ```bash
-$ npm run docs:build
+$ pnpm run docs:build
 ```
 
 Build library via `father-build`,
 
 ```bash
-$ npm run build
+$ pnpm run build
 ```

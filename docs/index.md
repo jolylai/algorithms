@@ -1,19 +1,28 @@
 ---
+layout: home
+
+title: Pomelo Plus
+titleTemplate: Vite & Vue Powered Static Site Generator
+
 hero:
-  title: 算法
-  desc: JavaScript 算法
+  name: Pomelo Plus
+  text: Vite & Vue Powered Static Site Generator
+  tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
   actions:
-    - text: Getting Started
-      link: /components
+    - theme: brand
+      text: Get Started
+      link: /guide/getting-started
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/vuejs/vitepress
+
 features:
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
-    title: Feature 1
-    desc: Balabala
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/d60657df-0822-4631-9d7c-e7a869c2f21c/k79dmz3q_w126_h126.png
-    title: Feature 2
-    desc: Balabala
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
-    title: Feature 3
-    desc: Balabala
-# footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
+  - title: "Vite: The DX that can't be beat"
+    details: Feel the speed of Vite. Instant server start and lightning fast HMR that stays fast regardless of the app size.
+  - title: Designed to be simplicity first
+    details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
+  - title: Power of Vue meets Markdown
+    details: Enhance your content with all the features of Vue in Markdown, while being able to customize your site with Vue.
+  - title: Fully static yet still dynamic
+    details: Go wild with true SSG + SPA architecture. Static on page load, but engage users with 100% interactivity from there.
 ---
