@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: Pomelo Plus
+title: 数据结构与算法
 titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
-  name: Pomelo Plus
+  name: 数据结构与算法
   text: Vite & Vue Powered Static Site Generator
   tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
   actions:

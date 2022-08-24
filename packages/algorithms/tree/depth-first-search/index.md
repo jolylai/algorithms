@@ -1,7 +1,3 @@
----
-title: 深度优先遍历
----
-
 # 深度优先遍历 (DFS)
 
 深度优先遍历 (DFS) 是用来遍历树节点、搜索树节点 或者 数据结构图的算法 is an algorithm for traversing or

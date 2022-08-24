@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'Vitepress',
   description: 'Vitepress 学习笔记',
   lastUpdated: true,
+  srcDir: '../packages',
   themeConfig: {
     nav: [
       {
@@ -23,7 +24,7 @@ export default defineConfig({
     },
   },
   markdown: {
-    lineNumbers: false,
+    lineNumbers: true,
   },
 });
 
@@ -39,8 +40,21 @@ function getDataStructureSidebar() {
 function getAlgorithmsSidebar() {
   return [
     {
-      text: '数据结构',
-      items: [{ text: '快速开始', link: '/algorithms/getting-start' }],
+      text: 'Tree',
+      items: [
+        {
+          text: '广度优先遍历',
+          link: '/algorithms/tree/breadth-first-search/',
+        },
+        {
+          text: '深度优先遍历',
+          link: '/algorithms/tree/depth-first-search/',
+        },
+        {
+          text: '数据格式转换',
+          link: '/algorithms/tree/data-conversion/',
+        },
+      ],
     },
   ];
 }

@@ -9,7 +9,7 @@
     "strict": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["packages"],
+  "include": ["packages/**/*.ts"],
   "exclude": [
     "node_modules",
     "lib",

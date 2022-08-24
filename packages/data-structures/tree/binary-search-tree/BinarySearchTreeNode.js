@@ -1,4 +1,4 @@
-import Comparator from '../../utils/Comparator';
+import Comparator from '../../../algorithms/utils/Comparator';
 import BinaryTreeNode from '../BinaryTreeNode';
 
 export default class BinarySearchTreeNode extends BinaryTreeNode {
