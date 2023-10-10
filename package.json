@@ -3,34 +3,31 @@
   "name": "notebook-algorithms",
   "version": "1.0.0",
   "scripts": {
+    "dev": "vitepress dev docs",
     "docs:start": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
-    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "vitest",
     "test:coverage": "vitest run --coverage"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
-  "gitHooks": {
-    "pre-commit": "lint-staged"
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,less,md,json}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "prettier --parser=typescript --write"
-    ]
+    "*": "eslint --fix"
   },
   "devDependencies": {
-    "lint-staged": "^10.0.7",
-    "prettier": "^1.19.1",
+    "@antfu/eslint-config": "1.0.0-beta.24",
+    "eslint": "^8.51.0",
+    "lint-staged": "^10.5.4",
     "typescript": "^4.6.3",
-    "vitepress": "1.0.0-alpha.10",
-    "vitest": "^0.9.0",
-    "yorkie": "^2.0.0"
+    "vitepress": "1.0.0-rc.20",
+    "vitest": "^0.9.0"
   },
   "dependencies": {
     "algorithms": "workspace:^0.0.1",
